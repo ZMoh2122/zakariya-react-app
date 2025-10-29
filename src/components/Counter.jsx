@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
-export default function Counter() {
+export function Tiriye() {
   // Step 1: Declare a state variable called "count" starting at 0
-  const [count, setCount] = useState(20);
+  const [count, setCount] = useState(0);
 
   // Step 2: Create functions to update the state
   const handleIncrement = () => {
